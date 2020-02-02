@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI.woff2') format('woff2'),
+        url('assets/fonts/SegoeUI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #fff;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  ::placeholder {
+    color: #fff!important;
+  }
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-navbar-dark .nav-link {
+    color: #fff !important;
+    padding: 1rem !important;
+}
+
+.top-navbar-dark {
+    background: #20639B;
+    margin-top: -2px;
+    z-index: -1;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px
+}
+
+.top-navbar-dark .active {
+    color: #fff !important;
+    background-color: #20639B !important;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+    font-weight: bold;
+}
+
+/* top nav bar */
+.top-navbar {
+    background-color: #20639B !important;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.label-color {
+    color: #fff !important;
+    font-weight: bolder;
+}
+
+.hideable {
+    display: none;
+}
+
+
+.mobile-view-item {
+    display: inline-flex;
+    padding: 10px;
+    color: #fff;
+    font-size: 13px;
+}
+.mobile-view-item:hover {
+    text-decoration: none!important;
+    color: #fff!important;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+.mobile-view{
+    background-color: #20639B !important;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+button.close {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+li.nav-item.active{
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.top-navbar-dark .navbar-nav .nav-item:hover{
+        box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+.submit-btn{    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);}
+.mobile-view-form{
+    background:rgba(32, 99, 155, 1)!important;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1300px) {
+    .top-navbar {
+        font-size: 13px;
+    }
+    .top-navbar .form-inline .form-control {
+        display: inline-block;
+        width: 7rem;
+        vertical-align: middle;
+    }
+    ::-webkit-input-placeholder { /* Edge */
+        color: #20639B;
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #20639B;
+      }
+      
+      ::placeholder {
+        color: #20639B!important;
+      }
+  }
